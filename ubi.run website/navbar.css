@@ -298,7 +298,7 @@ ul{
     color: #f5eded;
 }
 
-.info-ubi p{
+.info-ubi .info-1, .info-2, .info-3{
 
   font-family: 'Poppins', sans-serif;
   color: #423d34;
@@ -311,15 +311,43 @@ ul{
   color: #f5eded;
 }
 
+.info-ubi .info{
+
+  font-family: 'Poppins', sans-serif;
+  color: #423d34;
+  width: 100%;
+  padding-left: 18px;
+  padding-right: 18px;
+  line-height: 25px;
+  font-size: 22px;
+  text-decoration: none;
+  margin-bottom: 6px;
+  text-align: center;
+  background: -webkit-linear-gradient(0deg,#d72323,#1ca0f2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: italic;
+  margin: 0;
+
+}
+
 .yang{
 
   color: #f5eded;
   font-size: 15px;
+  width: 100%;
+  margin: 0;
+
 }
 
-.yang a:hover{
+.yang-ubi{
 
-  text-decoration: underline;
+  color: #f5eded;
+  font-size: 15px;
+  line-height: 30px;
+  margin: 0;
+  padding-left: 18px;
+
 }
 
 /*Profile cards*/
@@ -589,7 +617,6 @@ ul{
 
 .contact-form{
 
-  /*max-width: 600px;*/
   padding: 0 10px;
   overflow: hidden;
 }
