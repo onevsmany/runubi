@@ -303,7 +303,7 @@ ul{
   font-family: 'Poppins', sans-serif;
   color: #423d34;
   width: 100%;
-  padding-left: 18px;
+  padding-left: 20px;
   line-height: 25px;
   font-size: 15px;
   text-decoration: none;
@@ -346,7 +346,8 @@ ul{
   font-size: 15px;
   line-height: 30px;
   margin: 0;
-  padding-left: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
 
 }
 
