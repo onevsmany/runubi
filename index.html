@@ -10,7 +10,7 @@
     <title>UBI.run website</title>
 
     <!-- custom style -->
-    <link rel="stylesheet" href="/navbar.css">
+    <link rel="stylesheet" href="navbar.css">
 
     <!-- custom style -->
 
@@ -556,10 +556,10 @@
   <div class="contact-section">
     <h1>Contact Us</h1>
     <div class="heading"></div>
-    <form name="contact-form" method="POST" data-netlify="true">
-      <input type="text" class="contact-form-text" placeholder="Your name" required maxlength="50">
-      <input type="email" class="contact-form-text" placeholder="Your email" required maxlength="50">
-      <textarea class="contact-form-text" placeholder="Your message"></textarea>
+    <form name="contact-form" method="post" action="feedback.php">
+      <input type="text" class="contact-form-text" placeholder="Your name" name="name" required maxlength="50">
+      <input type="email" class="contact-form-text" placeholder="Your email" name="email" required maxlength="50">
+      <textarea class="contact-form-text" placeholder="Your message" name="message"></textarea>
       <div class="field" data-netlify-recaptcha="true" maxlength="6000" required></div>
       <input type="submit" class="contact-form-btn">
     </form>
