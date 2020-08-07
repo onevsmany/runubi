@@ -23,9 +23,9 @@ open.addEventListener("click", function(){
     }
 });
 
-$("#searchCandidates").on("keyup", function() {
-    var value = $(this).val().toLowerCase();
-    $(".card").filter(function() {
-      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-    });
-  });
+// $("#searchCandidates").on("keyup", function() {
+//     var value = $(this).val().toLowerCase();
+//     $(".card").filter(function() {
+//       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+//     });
+//   });
