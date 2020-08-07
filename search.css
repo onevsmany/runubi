@@ -99,6 +99,7 @@ h1 {
 #searchWrapper {
 
     position: relative;
+    padding: 0px 60px;
 }
 
 #searchWrapper::after {
@@ -106,7 +107,7 @@ h1 {
     content: '🔍';
     position: absolute;
     top: 7px;
-    right: 15px;
+    right: 72px;
 }
 
 
