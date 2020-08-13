@@ -5,6 +5,12 @@ const loadCharacters = async () => {
     try {
 
         // need json script for the candidates profile cards. Something like this: https://hp-api.herokuapp.com/api/characters
+        $("#searchBar").on("keyup", function() {
+            var value = $(this).val().toLowerCase();
+            $(".card").filter(function() {
+              $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            });
+          });
         const res = await fetch('');
         hpCharacters = await res.json();
         displayCharacters(hpCharacters);
