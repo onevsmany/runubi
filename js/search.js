@@ -1,4 +1,4 @@
-const charactersList = document.getElementById('charactersList');
+const candidatesList = document.getElementById('candidatesList');
 let hpCharacters = [];
 
 const loadCharacters = async () => {
@@ -25,7 +25,7 @@ const displayCharacters = (characters) => {
         `;
         })
         .join('');
-    charactersList.innerHTML = htmlString;
+    candidatesList.innerHTML = htmlString;
 };
 
 loadCharacters();
