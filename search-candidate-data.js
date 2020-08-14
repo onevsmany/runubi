@@ -1,3 +1,10 @@
+// Created by Kyle Y. Parsotan
+
+// Need to have the profile cards input the data below 
+// and print the profile cards like it is currently showing on the website
+// once this is finsihed and then i can publish the website and 
+// check to see if it works properly on the published site.
+
 var data = [
 
 	"candidiates":[
