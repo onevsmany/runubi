@@ -183,9 +183,11 @@ nav ul li a:hover::after{
 }
 
 @keyframes slideIn {
+
   from{
 
   }
+  
   to{
 
     transform: translateX(0);
