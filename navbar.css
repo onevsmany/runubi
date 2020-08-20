@@ -72,7 +72,7 @@ header{
 nav{
 
   padding-top: 5rem;
-  display: flex;
+  display: block;
   justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
